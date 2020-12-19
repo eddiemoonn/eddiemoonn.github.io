@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eddiemoonn/static/css/main.23d3f543.chunk.css",
+    "main.js": "/eddiemoonn/static/js/main.2e426976.chunk.js",
+    "main.js.map": "/eddiemoonn/static/js/main.2e426976.chunk.js.map",
+    "runtime-main.js": "/eddiemoonn/static/js/runtime-main.154f3f42.js",
+    "runtime-main.js.map": "/eddiemoonn/static/js/runtime-main.154f3f42.js.map",
+    "static/css/2.0c14234b.chunk.css": "/eddiemoonn/static/css/2.0c14234b.chunk.css",
+    "static/js/2.0fd8247f.chunk.js": "/eddiemoonn/static/js/2.0fd8247f.chunk.js",
+    "static/js/2.0fd8247f.chunk.js.map": "/eddiemoonn/static/js/2.0fd8247f.chunk.js.map",
+    "index.html": "/eddiemoonn/index.html",
+    "static/css/2.0c14234b.chunk.css.map": "/eddiemoonn/static/css/2.0c14234b.chunk.css.map",
+    "static/css/main.23d3f543.chunk.css.map": "/eddiemoonn/static/css/main.23d3f543.chunk.css.map",
+    "static/js/2.0fd8247f.chunk.js.LICENSE.txt": "/eddiemoonn/static/js/2.0fd8247f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.154f3f42.js",
+    "static/css/2.0c14234b.chunk.css",
+    "static/js/2.0fd8247f.chunk.js",
+    "static/css/main.23d3f543.chunk.css",
+    "static/js/main.2e426976.chunk.js"
+  ]
+}
