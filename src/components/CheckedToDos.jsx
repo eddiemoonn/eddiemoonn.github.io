@@ -15,7 +15,7 @@ export const CheckedToDos = (props) => {
                             <>
                                 {checkedTodos.map(item => (
                                     <li className={'todo-item'} >
-                                        {item.name} {item.description}
+                                        {item.name}
                                     </li>
                                 ))}
                             </>

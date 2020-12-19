@@ -10,7 +10,7 @@ export const ToDoForm = (props) => {
     }
 
     return(
-        <Form className={'todo-form'} layout={'horizontal'} onFinish={finish} >
+        <Form className={'todo-form'} layout={'horizontal'} onFinish={finish}>
             <Item name={'name'} label="Title" >
                 <Input pattern="^[A-Z][a-zA-Z0-9]{2,}" title="3 characters minimum, must start with capital letter" />
             </Item>

@@ -17,10 +17,8 @@ export const ToDoItem = (props) => {
        <li className={'todo-item'} >
             <Checkbox checked={item.checked} onChange={check}  
             style={{'textDecorationLine': item.checked ? 'line-through' : 'none','color' : 'blue', 'textDecorationColor': 
-            item.checked ? 'color':'red'} }>{item.name}</Checkbox>
-            <text checked={item.checked} onChange={check}  
-            style={{'textDecorationLine': item.checked ? 'line-through' : 'none','color' : 'blue', 'textDecorationColor': 
-            item.checked ? 'color':'red'} }>{item.description}</text>
+            item.checked ? 'color':'red'} }>{item.name}{item.description}</Checkbox>
+            
             <Button type = "danger" onClick={remove}><DeleteOutlined /></Button>
         </li>
         

@@ -1,4 +1,4 @@
-import React, { useState, setState } from 'react';
+import React, { useState } from 'react';
 import { Card, Divider, Col, Row, Button } from 'antd';
 import { ToDoItem } from './ToDoItem';
 import { ToDoForm } from './ToDoForm';
@@ -6,8 +6,8 @@ import { ToDoForm } from './ToDoForm';
 
 
 export const ToDo = () => {
-    const [todos, setTodos] = useState([{id: 1, name: 'todo 1', description:' des 1', checked: false},
-                                        {id: 2, name: 'todo 2', description:' des 1', checked: false}]);
+    const [todos, setTodos] = useState([{id: 1, name: 'todo 1', description:' :des 1', checked: false},
+                                        {id: 2, name: 'todo 2', description:' :des 1', checked: false}]);
     
     const [ids, setIds] = useState(10);
 
@@ -49,7 +49,7 @@ export const ToDo = () => {
         };
         setTodos([...todos, todo]);
         setIds(ids + 1);
-        setState({[todo.checked]:ids});
+        
     }
 
     const removeAllChecked = () => {
