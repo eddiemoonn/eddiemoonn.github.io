@@ -6,8 +6,8 @@ import { ToDoForm } from './ToDoForm';
 
 
 export const ToDo = () => {
-    const [todos, setTodos] = useState([{id: 1, name: 'todo 1', description:' :des 1', checked: false},
-                                        {id: 2, name: 'todo 2', description:' :des 1', checked: false}]);
+    const [todos, setTodos] = useState([{id: 1, name: 'todo 1', description:' des 1', checked: false},
+                                        {id: 2, name: 'todo 2', description:' des 2', checked: false}]);
     
     const [ids, setIds] = useState(10);
 
