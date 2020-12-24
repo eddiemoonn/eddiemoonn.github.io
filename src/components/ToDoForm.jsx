@@ -18,7 +18,7 @@ export const ToDoForm = (props) => {
                 <Input pattern="^[A-Z][a-zA-Z0-9]{2,}" title="3 characters minimum, must start with capital letter" />
             </Item>
             <Item name={'description'} label="Description">
-                <Input /> 
+                <Input pattern="^[A-Z][a-zA-Z0-9]{2,}" title="3 characters minimum, must start with capital letter" /> 
             </Item>
             <Item>
                 <Button htmlType={'submit'}>Add</Button>
